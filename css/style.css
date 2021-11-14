@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+  background-color: rgb(238, 160, 186);
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+/*Header */
+header {
+  background: linear-gradient(to right, #99ccff 0%, #ff99cc 100%);
+
+  background-repeat: no-repeat;
+  display: flex;
+
+  justify-content: space-around;
+  
+}
+
+video {
+  width: 200px;
+  height: 100px;
+}
+nav ul {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: lightcyan;
+}
+nav ul li {
+  margin: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: x-large;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+.center {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  word-spacing: 10px;
+  padding: 5px;
+  margin: 5px;
+  align-items: center;
+}
+ul li {
+  padding: 5 px;
+}
+
+header {
+  margin: 5px;
+  padding: 10px;
+}
+
+/* End Header */
+/*Main*/
+img {
+  border-style: dotted;
+  border-color: palevioletred;
+}
+h1 {
+  font-family: Verdana;
+  font-size: large;
+  color: #26c6da;
+}
+h1:hover {
+  font-size: x-large;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: large;
+  
+}
+a:link {
+  color: black;
+}
+ a:visited {
+  color:blueviolet;
+} 
+a:hover {
+  color:greenyellow;
+}
+.icones {
+  display: inline-block;
+  margin: 20px;
+}
+.icones li {
+  text-align: justify;
+}
+.icones a img:hover {
+  background-color: #f3335a;
+}
+.icones a img {
+  width: 48px;
+  height: 48px;
+}
+
+.container1 ,.container2,.container3{
+  max-width: 1100px;
+  margin: 20px auto;
+
+  background-color: white;
+  padding: 30px 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 50px -10px #d6d6d6;
+}
+.container2 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  position: relative;
+
+  display: inline-block;
+}
+.container3 {
+  display: flex;
+
+  justify-content: space-around;
+}
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.nameDes {
+  font-family: Lucida Handwriting;
+  margin-bottom: 20px;
+}
+
+#nameStyle {
+  font-weight: bold;
+  color: red;
+}
+.details {
+  margin-bottom: 20px;
+}
+
+.block {
+  display: inline-block;
+  margin-right: 30px;
+}
+.title-s {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #e74c3c;
+  font-weight: bold;
+}
+.cv {
+  margin-bottom: 20px;
+}
+
+
+.image {
+  opacity: 1;
+  width: 300px;
+  height: 200px;
+  margin: 20px 20px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 600px;
+}
+
+input {
+  width: 47%;
+}
+input:hover,
+textarea:hover {
+  border-bottom: 2px solid #1fb3bf;
+}
+input,
+textarea {
+  margin-bottom: 20px;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #e4e4ec;
+  transition: 0.2s;
+}
+textarea {
+  width: 100%;
+  resize: none;
+  height: 100px;
+}
+
+
+.footer-top,
+.footer-bottom {
+  background-color: #1c1f2f;
+}
+
+.footer-bottom {
+  padding: 15px 0;
+  border-top: 1px solid #313646;
+  background-color: #181828 !important;
+  color: #b0b0b0;
+  font-family: rubik;
+}
+
+.socials-item {
+  margin-right: 20px;
+}
+
+
+button {
+  width: 192px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1fb3bf;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+  background-position: left bottom;
+  padding: 0.7em 1.5em;
+
+  background: linear-gradient(to bottom, #1fb3bf 50%, #157079 50%);
+  background-size: 100% 200%;
+  background-position: left bottom;
+}
+button:hover {
+  background-position: right top;
+}
